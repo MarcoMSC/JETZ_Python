@@ -1,8 +1,12 @@
 # Übung Chat: Client Server
 
-## ChatBot Zeit Server
+## ChatBot Antwort Server
 
-In dieser Übung wird der Server erweitert, dass er eine Anfrage auf das Schlüsselwort 'Zeit' durchsucht (auch in einem Satz) und dann die Zeit zurückgibt. 
+In dieser Übung wird der Server erweitert, dass er eine Anfrage auf das Schlüsselwort 'Zeit', 'Datum' und 'Wetter' durchsucht (auch in einem Satz) und die entsprechende Antwort zurückgibt. 
+
+'Zeit' => aktuelle Zeit vom Server soll zurückgegeben werden <br>
+'Datum' => aktuelles Datum vom Server soll zurückgegeben werden<br>
+'Wetter' => auf der "www.srf.ch/meteo" wird die aktuelle Wetterprognose extrahiert und zurückgegeben<br>
 
 <br><br><br>
 
