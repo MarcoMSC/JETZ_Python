@@ -6,7 +6,7 @@ port = 8080
 def nachricht_auswerten(nachricht):
     print(":: ", nachricht)
     antwort = 'ich verstehe dies leider nicht...'
-    if nachricht == "Zeit":
+    if nachricht.lower().find("zeit") != -1:
         antwort = datetime.now().strftime('%H:%M:%S')
     return antwort
 

@@ -2,7 +2,7 @@
 
 ## ChatBot Zeit Server
 
-In dieser Übung wird der Server erweitert, dass er auf die Anfrage 'Zeit' die aktuelle Zeit des Servers zurück gibt.
+In dieser Übung wird der Server erweitert, dass er eine Anfrage auf das Schlüsselwort 'Zeit' durchsucht (auch in einem Satz) und dann die Zeit zurückgibt. 
 
 <br><br><br>
 
