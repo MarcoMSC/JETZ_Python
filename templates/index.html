@@ -1,0 +1,52 @@
+<!doctype html>
+<!--Vorschau Website + Online Editor: 
+    https://www.tutorialspoint.com/online_html_editor.php
+    https://www.w3schools.com/css/css_form.asp
+-->
+
+<head>
+    <title>JETZ Webserver</title>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.inputtext {
+    /*background-color: #f44336;  Red */ 
+    border: none;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    width: 100%;
+    padding: 10px 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+h1{
+    color: red;
+}
+div{
+    margin-top: 20px;
+    font-size: 20px;
+}
+</style>
+</head>
+
+
+<body>
+    <h1>JETZ Webserver</h1>
+
+    <form action="/" method="POST">
+        <input class="inputtext" type="text" name="befehl"><br><br>
+        <input class="button" type="submit" value="Send">
+    </form> 
+    <div>{{antworttext}}</div>
+</body> 
